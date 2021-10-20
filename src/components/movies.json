@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "image":"mov3.jpg",
+        "title":"Bell Bottom",
+        "actor":"Askshay Kumar"
+    },
+
+    {
+        "id":2,
+        "image":"mov2.jpg",
+        "title":"Shershaa",
+        "actor":"Kiara"
+    },
+
+    {
+        "id":3,
+        "image":"mov3.jpg",
+        "title":"Sultan",
+        "actor":"Salman Khan"
+    },
+
+    {
+        "id":4,
+        "image":"mov4.jpg",
+        "title":"Thappad",
+        "actor":"Tapsee Pannu"
+    },
+    {
+        "id":5,
+        "image":"mov1.jpg",
+        "title":"Bell",
+        "actor":"Vanni"
+    }
+]
