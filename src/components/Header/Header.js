@@ -38,7 +38,10 @@ function Header(){
                         <NavDropdown title="Link" id="navbarScrollingDropdown">
                         
                          
-                        
+                        <NavDropdown.Item href="/register">
+                            User Registration
+
+                        </NavDropdown.Item>
                         </NavDropdown>
                        
                     </Nav>

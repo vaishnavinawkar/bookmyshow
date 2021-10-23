@@ -6,10 +6,11 @@ import Footer from './components/Footer';
 import CardSlider from  './components/CardSlider';
 import Premiere from './components/Premiere';
 import Streaming from './components/Streaming';
-import AllMovies from './components/AllMovies';
-import SingleMovie from './components/SingleMovie';
-
-
+// import AllMovies from './components/AllMovies';
+import AllMoviesFetch from './components/AllMoviesFetch';
+// import SingleMovie from './components/SingleMovie';
+import SingleMovieFetch from './components/SingleMovieFetch';
+import Registration from './components/Registration';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,10 +26,15 @@ function App() {
       <Header/>
       <Switch>
           <Route exact path="/Movies">
-            <AllMovies/>
+            <AllMoviesFetch/>
           </Route>
           <Route exact path="/Movies/:movid">
-            <SingleMovie/>
+            <SingleMovieFetch/>
+          </Route>
+
+          <Route exact path="/register">
+
+            <Registration/>
           </Route>
          
           <Route exact path="/">
